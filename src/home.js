@@ -217,7 +217,7 @@ export const ImageUpload = () => {
                   onChange={onSelectFile}
                 />
               </CardContent>}
-              {data && <CardContent className={classes.detail}>
+              {/* {data && <CardContent className={classes.detail}>
                 <TableContainer component={Paper} className={classes.tableContainer}>
                   <Table className={classes.table} size="small" aria-label="simple table">
                     <TableHead className={classes.tableHead}>
@@ -236,9 +236,15 @@ export const ImageUpload = () => {
                     </TableBody>
                   </Table>
                 </TableContainer>
-              </CardContent>}
+              </CardContent>} */}
+              
             </Card>
           </Grid>
+        </Grid>
+        <Grid>
+        <Card>
+                {confidence}
+              </Card>
         </Grid>
       </Container>
     </React.Fragment>
